@@ -1,0 +1,41 @@
+[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+
+html,
+body {
+    -webkit-box-shadow: 1px 2px 5px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 13px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 13px rgba(0,0,0,0.75);
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(0, 0, 0);}
